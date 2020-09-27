@@ -1,11 +1,11 @@
 <template>
-  <div class="home">
+  <div>
     <img
       alt="Dedication logo"
       src="../assets/dedication-logo.jpg"
       style="width: 300px; height: 300px"
     />
-    <HelloWorld msg="Go Dedication" />
+    <HelloWorld msg="#GoDDC" />
   </div>
 </template>
 

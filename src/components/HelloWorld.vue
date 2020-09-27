@@ -1,32 +1,39 @@
 <template>
   <div class="hello">
-    <h1>{{msg}}</h1>
+    <h1 class="message">{{msg}}</h1>
     <img
       src="../assets/face-image.png"
       alt="Facebook Logo"
-      style="height: 30px; width: 30px"
+      class="icon"
     />
     <a
       href="https://www.facebook.com/dedicationrajada"
       target="_blank"
       rel="noopener"
-      >Facebook Dedication</a
+      >Facebook</a
     >
     <ul>
       <li>
         <img
           src="../assets/instagram-image.png"
           alt="Instagram Logo"
-          style="height: 30px; width: 30px"
+          class="icon"
         />
         <a
           href="https://www.instagram.com/goodedication/"
           target="_blank"
           rel="noopener"
-          >Instagram Dedication</a
+          >Instagram</a
         >
       </li>
     </ul>
+		<ul>
+			<img 
+				src="../assets/galera.jpg" 
+				alt="Foto da galera" 
+				style="height: 500px; width: 700px" 
+			/>
+		</ul>
   </div>
 </template>
 
@@ -34,6 +41,7 @@
 
 export default {
 	name: "HelloWorld",
+	props: ['msg']
 }
 
 </script>
@@ -53,5 +61,12 @@ li {
 }
 a {
   color: #4252fd;
+}
+.message {
+	color: #FFF;
+}
+.icon {
+	height: 30px; 
+	width: 30px
 }
 </style>
