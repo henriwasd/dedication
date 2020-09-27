@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <h1>{{msg}}</h1>
     <img
       src="../assets/face-image.png"
       alt="Facebook Logo"
@@ -31,7 +31,11 @@
 </template>
 
 <script>
-export default {};
+
+export default {
+	name: "HelloWorld",
+}
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
